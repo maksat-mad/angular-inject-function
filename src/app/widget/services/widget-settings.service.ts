@@ -6,4 +6,10 @@ import { Injectable } from '@angular/core';
 export class WidgeSettingsService {
 
   constructor() { }
+
+  getSettings() {
+    return {
+      pollingInterval: 50000
+    }
+  }
 }
